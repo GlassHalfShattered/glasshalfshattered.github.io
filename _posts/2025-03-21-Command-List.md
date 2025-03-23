@@ -53,4 +53,5 @@ tags: [otto,commands]
 /ping # Mainly a test command, displays Otto's current ping
 /export_level_stats # Creates a CSV of the user table within level.db
 /export_betterbucks_data # Creates a CSV of the transactions table within polymarket.db
+/help # Otto responds with the link to this site, likely how you got here in the first place.
 ```
