@@ -55,4 +55,6 @@ tags: [otto,commands]
 /export_betterbucks_data # Creates a CSV of the transactions table within polymarket.db
 /help # Otto responds with the link to this site, likely how you got here in the first place.
 /spin `names` # provided with a list of comma separated values, Otto will generate a gif of a spinning wheel which will decide on a winner then post both the gif and the winner's name in the channel
+/pointdiffs # Otto will post an embed showing the ten closest differences in server xp points from closest to furthest
+
 ```
