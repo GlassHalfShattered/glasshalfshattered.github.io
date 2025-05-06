@@ -45,7 +45,12 @@ tags: [otto,commands]
 ```yml
 /polymarket `url` # Provided with a valid Polymarket.com url to an open event, Otto will parse the list of available markets and create embeds for each one. Simply click either the `Buy Yes` or `Buy No` buttons to open a modal to bet on either one.
 ```
-  
+## Groove Grove Commands
+```yml
+/spin `names` # provided with a list of comma separated values, Otto will generate a gif of a spinning wheel which will decide on a winner then post both the gif and the winner's name in the channel
+/nomination # sends a modal to create your music nomination. Asks for album, artist, and (spotify) link
+/reup # provides your nomination with a new datestamp, allowing it to be pulled for the current week
+```
 ## Misc Commands
 ```yml
 /stats # Otto will post an embed of your stats within the server including xp,level, total messages, BetterBuck Balance and currently active bets filtered by resolve date
@@ -54,7 +59,6 @@ tags: [otto,commands]
 /export_level_stats # Creates a CSV of the user table within level.db
 /export_betterbucks_data # Creates a CSV of the transactions table within polymarket.db
 /help # Otto responds with the link to this site, likely how you got here in the first place.
-/spin `names` # provided with a list of comma separated values, Otto will generate a gif of a spinning wheel which will decide on a winner then post both the gif and the winner's name in the channel
 /pointdiffs # Otto will post an embed showing the ten closest differences in server xp points from closest to furthest
 
 ```
