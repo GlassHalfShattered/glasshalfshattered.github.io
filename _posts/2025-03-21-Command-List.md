@@ -50,6 +50,7 @@ tags: [otto,commands]
 /spin `names` # provided with a list of comma separated values, Otto will generate a gif of a spinning wheel which will decide on a winner then post both the gif and the winner's name in the channel
 /nomination # sends a modal to create your music nomination. Asks for album, artist, and (spotify) link
 /reup # provides your nomination with a new datestamp, allowing it to be pulled for the current week
+/backer # provides you with a list of nominations, and asks you to select one to back from a dropdown
 ```
 ## Misc Commands
 ```yml
